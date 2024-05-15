@@ -77,3 +77,13 @@ footer {
   padding: 1rem;
   text-align: center;
 }
+/* Promotional banner styles */
+.promotional-banner {
+  margin-top: 4rem;
+}
+
+.promotional-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
