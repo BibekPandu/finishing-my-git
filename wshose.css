@@ -19,11 +19,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 nav ul {
@@ -36,13 +37,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: yellow;
+  color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
+
 nav ul li a:hover {
   color: #f7f614; /* Change color on hover */
 }
-
 /* Main styles */
 .main {
   padding: 2rem;
@@ -61,7 +63,7 @@ nav ul li a:hover {
   padding: 1rem;
   margin-bottom: 2rem;
   text-align: center;
-  box-shadow: 0 2px 4px green;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product img {
