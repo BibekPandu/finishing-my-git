@@ -97,10 +97,6 @@ nav ul li a:hover {
   color: #f7f614; /* Change color on hover */
 }
 /* Featured Products and New Arrivals styles */
-.featured-products,
-.new-arrivals {
-  margin-bottom: 5rem;
-}
 
 .product button:hover {
   background-color: green; /* Change button color on hover */
